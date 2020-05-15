@@ -1,0 +1,94 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+font: bold 22px verdana, sans-serif;
+} h4 {
+font: bold 16px verdana, sans-serif;
+}
+
+/*para asegurarnos de que serán tratados como regularmente
+se hace con elementos <div> y de este modo construir
+el modelo de caja*/
+ section, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+
+/*Centrando el cuerpo*/
+body {
+text-align: center;
+/*background-image: url("paper.gif");*/
+/*background-color: lightblue;*/
+}
+
+/*Definiendo las propiedades de la caja principal*/
+#fondo{
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: left;
+}
+
+/* Agregando estilos para <header>.*/
+
+
+
+#seccion {
+float: left;
+width: 660px;
+margin: 20px;
+}
+
+/*Footer*/
+
+/*Agregando los últimos toques a nuestro diseño básico.*/
+article {
+background: #ccdaff;
+border: 1px solid rgba(63, 102, 188, 0.48);
+padding: 20px;
+margin-bottom: 20px;
+}
+
+article footer {
+text-align: right;
+}
+
+#imagen{
+  width: 70%;
+  height: 60%;
+}
+
+time {
+color: #3e3e3e;
+}
+
+figcaption {
+font: italic 20px Calibri, sans-serif;
+}
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+p {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
